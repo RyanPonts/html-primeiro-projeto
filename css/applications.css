@@ -1,0 +1,44 @@
+.cabeca {
+    
+}
+
+.banner {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+}
+
+.banner .content {
+    position: relative;
+    z-index: 1;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    color: #04fc10;
+}
+
+.banner h1 {
+    font-size: 32px;
+    color: chartreuse;
+}
+
+.banner h2 {
+    font-size: 27px;
+    padding-bottom: 16px;
+
+}
+
+.banner p {
+    font-size: 20px;
+}
